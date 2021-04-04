@@ -8,6 +8,8 @@
 
 
 ## How-to
+- [here's a video explainer](https://youtu.be/hBxpvwYTn80)
+
 ```
 $ ./coverLetterTemplate.sh Amazon
 copied to clipboard
