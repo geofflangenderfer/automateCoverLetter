@@ -27,8 +27,8 @@ Geoff Langenderfer
 EOF
 )
 
-echo -e "$cl" > $1_cl.txt 
-xclip -sel clip < $1_cl.txt && echo "copied to clipboard"
-pandoc -o $1_cl.pdf $1_cl.txt #&& rm $1_cl.txt
+echo -e "$cl"   > tmp.txt
+xclip -sel clip < tmp.txt   && echo "copied to clipboard"
+pandoc -o $1_cl.pdf tmp.txt && rm tmp.txt
 
 
